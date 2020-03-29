@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.content{
+    position: absolute;
+    background-color: white;
+    top:30%;
+    height: 40%;
+    width: 34%;
+    left:33%;
+    margin:auto;
+    /* align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center; */
+    /* padding:auto; */
+    /* border: 5px solid green; */
+}
+img{
+    height: 50px;
+    width: auto;
+}
+.ladoDireito{
+    position: absolute;
+    width:50%;
+    height: 60%;
+    background-color:red;
+    left:50%;
+}
