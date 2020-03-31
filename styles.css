@@ -4,9 +4,9 @@ body{
 .content{
     position: absolute;
     background-color: white;
-    top:30%;
-    height: 40%;
-    width: 34%;
+    top:28%;
+    height: 46%;
+    width: 30%;
     left:33%;
     margin:auto;
     /* align-items: center;
@@ -17,14 +17,71 @@ justify-content: center; */
     /* padding:auto; */
     /* border: 5px solid green; */
 }
+h1{
+    margin-top: 20px;
+    font-family: handlee;
+    font-size: 25px;
+    margin: 12px;
+    
+}
 img{
     height: 50px;
     width: auto;
+    float: right;
+    margin: 12px;
 }
 .ladoDireito{
-    position: absolute;
-    width:50%;
-    height: 60%;
-    background-color:red;
-    left:50%;
+  float: right;
+  width: 50%;
+  margin-top: 98px;
+  
+}
+.ladoDireito input{display: block}
+p{
+    font-family: handlee;
+    font-size: 17px;
+    margin: 12px;
+    margin-right: 20px;
+}
+.ladoEsquerdo{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    
+}
+.rodapé input[type=submit]{
+border:none; 
+border-bottom: 4px solid gray;
+background-color:  rgb(165, 162, 162);
+text-align: center;
+padding: 5px;
+margin-left: 70px;
+margin-top: 12px;
+font-family: handlee;
+
+}
+.rodapé input[type=submit]{
+border:none; 
+border-bottom: 1px solid gray;
+background-color:  rgb(165, 162, 162);}
+
+.rodapé{
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+.cabeçalho{
+    background-color: white; overflow: hidden;
+}
+.Body{
+    overflow: hidden;
+}
+.ladoDireito input{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.ladoDireito input[type=text] {border: none; 
+    border-bottom: 1px solid gray;
+    margin-left: 80px;
 }
