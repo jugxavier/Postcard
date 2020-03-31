@@ -18,70 +18,62 @@ justify-content: center; */
     /* border: 5px solid green; */
 }
 h1{
-    margin-top: 20px;
+     margin-top: 15px;
     font-family: handlee;
     font-size: 25px;
-    margin: 12px;
-    
+    margin-left: 8px;
+
 }
 img{
     height: 50px;
     width: auto;
-    float: right;
-    margin: 12px;
+    position: absolute;
+    margin: 0;
+    top: 0;
+   right: 0;
 }
 .ladoDireito{
-  float: right;
   width: 50%;
-  margin-top: 98px;
+  position: absolute;
+  right: 0;
+  height: 60%;
   
 }
-.ladoDireito input{display: block}
-p{
-    font-family: handlee;
-    font-size: 17px;
-    margin: 12px;
-    margin-right: 20px;
-}
+
 .ladoEsquerdo{
-    float: left;
     width: 50%;
-    margin-top: 10px;
-    
+    height: 60%;
+    position: absolute;
 }
-.rodapé input[type=submit]{
+/*.rodapé input[type=submit]{
 border:none; 
 border-bottom: 4px solid gray;
 background-color:  rgb(165, 162, 162);
 text-align: center;
 padding: 5px;
-margin-left: 70px;
-margin-top: 12px;
+margin-top: 18px;
 font-family: handlee;
-
+}*/
+input{
+    margin: 4px;
+    width: 90%;
+   /* margin-top: 20px;*/
+   
 }
-.rodapé input[type=submit]{
-border:none; 
-border-bottom: 1px solid gray;
-background-color:  rgb(165, 162, 162);}
-
-.rodapé{
+.input{
+    margin-top: 20px;
+}
+p{
+    margin-left: 8px;
+}
+/*.rodapé{
     padding: 10px;
     text-align: center;
     padding: 10px;
-
-}
+}*/
 .cabeçalho{
     background-color: white; overflow: hidden;
 }
 .Body{
     overflow: hidden;
-}
-.ladoDireito input{
-    font-size: 15px;
-    margin-left: 20px;
-}
-.ladoDireito input[type=text] {border: none; 
-    border-bottom: 1px solid gray;
-    margin-left: 80px;
 }
