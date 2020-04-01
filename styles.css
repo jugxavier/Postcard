@@ -37,16 +37,14 @@ img{
 }
 input{
     margin: 4px;
-    width: 90%;
+    width: 90%; 
 }
 .input{
-    margin-top: 20px;
-    text-align: ;
+margin-top: 20px;{}
 }
 p{
     margin-left: 8px;
     font-family: handlee;
-
 }
 .cabeçalho{
     background-color: white; overflow: hidden;
@@ -56,15 +54,13 @@ p{
 }
 .rodapé{
     text-align: center;
-    
+    margin-top: 170px;
 }
 .rodapé button{
     font-size: 15px;
     font-family: handlee;
     border:none;
-    border-bottom: 2px solid gray; 
+    border-bottom: 1px solid gray; 
     width: 130px;
     background-color: rgb(179, 174, 174);
-    height: 20px;
-    
 }
