@@ -28,7 +28,7 @@ img{
   width: 50%;
   position: absolute;
   right: 0;
-  height: 60%;
+  height: 50%;
 }
 .ladoEsquerdo{
     width: 50%;
@@ -68,4 +68,5 @@ p{
     border-bottom: 1px solid gray; 
     width: 130px;
     background-color: rgb(179, 174, 174);
+    margin-top: 70px;
 }
